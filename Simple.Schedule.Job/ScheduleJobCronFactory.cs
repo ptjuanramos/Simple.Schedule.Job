@@ -34,6 +34,8 @@ namespace Simple.Schedule.Job
                     return CronExpression.Daily;
                 case ScheduleJobType.Monthly:
                     return CronExpression.Monthly;
+                case ScheduleJobType.Minutely:
+                    return CronExpression.Minutely;
                 case ScheduleJobType.Weekly:
                     return CronExpression.Weekly;
                 case ScheduleJobType.Hourly:

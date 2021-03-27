@@ -8,6 +8,7 @@ namespace Simple.Schedule.Job.Models
     {
         Always,
         Daily,
+        Minutely,
         Hourly,
         Weekly,
         Monthly
